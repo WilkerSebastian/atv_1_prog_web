@@ -32,7 +32,6 @@
 .section-list article {
     margin-bottom: 4rem;
 }
-
 .sub-list {
     list-style: inside;
     margin-left: 5%;
@@ -48,7 +47,7 @@
 }
 
 .section-list h2 {
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 .section-list h3 {
@@ -88,7 +87,7 @@
 
 .container-info h5 {
 
-    font-size: 1vw;
+    font-size: 0.7rem;
     font-weight: normal;
 
 }
@@ -101,7 +100,7 @@
 
 .info h5 {
 
-    font-size: 1vw;
+    font-size: 0.7rem;
     font-weight: normal;
 
 }
@@ -204,4 +203,24 @@
 .m-disc {
     margin-left: 4rem; 
     margin-right: 1rem;
+}
+
+@media (min-width: 992px) {
+
+    .section-list h2 {
+        font-size: 1.5rem;
+    }
+    
+    .container-info h5 {
+
+        font-size: 1.1rem;
+    
+    }
+
+    .info h5 {
+
+        font-size: 1.1rem;
+    
+    }
+
 }
